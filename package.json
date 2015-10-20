@@ -1,0 +1,28 @@
+{
+  "name": "VSBuildTime",
+  "version": "0.0.1",
+  "description": "Parse the Visual Studio build output and concatenate all the elapsed times to get the total build time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddikman/VSBuildTime.git"
+  },
+  "keywords": [
+    "visualstudio",
+    "buildtime",
+    "vs"
+  ],
+  "author": "David Dikman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddikman/VSBuildTime/issues"
+  },
+  "homepage": "https://github.com/ddikman/VSBuildTime",
+  "dependencies": {
+    "moment": "^2.10.6",
+    "timespan": "^2.3.0"
+  }
+}
